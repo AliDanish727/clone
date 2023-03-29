@@ -1,0 +1,99 @@
+.courseCardContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.courseCardContainer .courseImg {
+    margin-left: 16px;
+    position: absolute;
+    top: 21rem;
+}
+
+.courseCardContainer .courseImg .image {
+    background-image: url(https://lawsikho.com/uploads/banner/thumbs-small/cdc71a8a9958a238c95b433ba29772e7.jpg);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center;
+    width: 15rem;
+    height: 10rem;
+    border-radius: 4%;
+    margin-top: 100px;
+}
+
+.courseCardContainer .courseImg .image .new {
+    background: #ff4e50;
+    color: #fff;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.courseCardContainer .courseImg .image .new span {
+    font-size: 12px;
+    font-weight: 700;
+    padding: 0.3rem;
+}
+
+
+
+.courseCardContainer .courseImg .image .nsdclImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 70%;
+    width: 100%;
+}
+
+.courseCardContainer .courseImg .image .nsdclImg img {
+    width: 9rem;
+    height: 4rem;
+}
+
+.courseCardContainer .box {
+    /* height: 30rem; */
+    width: 17rem;
+    background-color: #fff;
+    margin-top: 90px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+}
+
+.courseCardContainer .box span {
+    font-weight: 700;
+    opacity: .5;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    font-size: .8rem;
+}
+
+
+.courseCardContainer .box span {
+    margin-top: 9rem;
+    margin-left: 1rem;
+}
+
+.courseCardContainer .box h3 {
+    min-height: 6rem;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+}
+
+
+.courseCardContainer button {
+    position: relative;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0.5rem 1.1rem;
+    letter-spacing: 1px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+    white-space: nowrap;
+    background-color: #ff4e50;
+    border: #ff4e50;
+    border-radius: 4px;
+    top: -20px;
+    left: 58px;
+    color: white;
+}

@@ -1,0 +1,170 @@
+.courseDetailsContainer {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.courseDetailsContainer .backgroungImg {
+    background-image: url(https://lawsikho.com/uploads/banner/thumbs/cdc71a8a9958a238c95b433ba29772e7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    /* Set the height of the container */
+    width: 100%;
+    /* Set the width of the container */
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 3rem;
+    filter: brightness(40%);
+}
+
+
+
+.courseDetailsContainer .overview {
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 3rem;
+}
+
+.courseDetailsContainer .overview .left {
+    width: 70%;
+}
+
+.courseDetailsContainer .overview .left .name {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.courseDetailsContainer .overview .right {
+    width: 30%;
+}
+
+.courseDetailsContainer .overview .left .nsdc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin-top: 50px;
+}
+
+.courseDetailsContainer .overview .left .nsdc .description {
+    color: #fff;
+    margin-left: 45px;
+}
+
+.courseDetailsContainer .overview .left .newTag {
+    background-color: #6cb469;
+    /* display: inline-block; */
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 600;
+    font-size: .85rem;
+    width: 55px;
+    height: 28px;
+    /* padding: 1rem; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 0.5rem;
+
+}
+
+.courseDetailsContainer .overview .left h2 {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: #ffc329;
+    margin-top: 20px;
+}
+
+.courseDetailsContainer .overview .getStudyMaterialButton {
+    margin-top: 40px;
+}
+
+.courseDetailsContainer .overview .getStudyMaterialButton button {
+    position: relative;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0.5rem 1.1rem;
+    letter-spacing: 1px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+    white-space: nowrap;
+    background-color: #ff4e50;
+    border: #ff4e50;
+    border-radius: 4px;
+    /* top: -20px;
+        left: 58px; */
+    color: white;
+}
+
+.courseDetailsContainer .overview .left .refund {
+    color: #fff;
+    margin-top: 20px;
+    width: 60%;
+
+}
+
+.courseDetailsContainer .overview .right .box {
+    width: 100%;
+    max-width: 18.75rem;
+    margin: auto;
+    background: #fff;
+    padding: 1rem 1.5rem;
+    border-radius: 4px;
+    box-shadow: 0 25px 39px rgba(0, 0, 0, .05);
+}
+
+.courseDetailsContainer .overview {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.courseDetailsContainer .overview .right .box h3 {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.courseDetailsContainer .overview .right .box p {
+    font-weight: 400;
+    font-size: .85rem;
+    color: #212529;
+    margin-bottom: 1rem;
+}
+
+
+.courseDetailsContainer .overview .right .box button {
+    position: relative;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0.5rem 1.1rem;
+    letter-spacing: 1px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+    white-space: nowrap;
+    background-color: #007bff;
+    border: #007bff;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.courseDetailsContainer .overview .right .box .courseBreif .logoTitle {
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.courseDetailsContainer .overview .right .box .courseBreif .logoTitle .title {
+    margin-left: 20px;
+}

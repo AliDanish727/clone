@@ -1,0 +1,76 @@
+.footerContainer {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.footerContainer .footer {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    padding-top: 2rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.footerContainer .footer .top .address {
+    line-height: 1.7;
+    color: #495057;
+    margin-top: 20px;
+}
+
+.footerContainer .footer .top .socialMedia {
+    margin-top: 20px;
+}
+
+.footerContainer .footer .top .socialMedia .title {
+    color: #495057;
+}
+
+.footerContainer .footer .top .socialMedia .socialMediaLogos {
+
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footerContainer .footer .top .socialMedia .socialMediaLogos .icon {
+    margin-right: 18px;
+}
+
+.footerContainer .footer .top .socialMedia .socialMediaLogos .icon img {
+    width: 35px;
+    height: 35px;
+}
+
+.footerContainer .footer .mid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.footerContainer .footer .mid .box .heading {
+    color: #ff4e50;
+}
+
+.footerContainer .footer .mid .box .list {
+    margin-top: 20px;
+}
+
+.footerContainer .footer .mid .box .list ul li {
+    list-style: none;
+    margin-bottom: 20px;
+    color: #495057;
+}
+
+.bottom {
+    background: #212529;
+    height: 30px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 30px;
+}
