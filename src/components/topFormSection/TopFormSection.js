@@ -6,6 +6,9 @@ import { faCircleCheck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Featured from '../featured/Featured';
 import Check from "../../../public/check.png"
+import { PageTracker } from '../../../utils/PageTracker';
+import { useRouter } from 'next/router'
+
 
 
 const countries = [
@@ -20,6 +23,11 @@ const countries = [
 
 
 const TopFormSection = ({ content }) => {
+
+    const router = useRouter()
+
+
+
     const [formData, setFormData] = useState({
         name: "",
         email: "",
@@ -45,7 +53,16 @@ const TopFormSection = ({ content }) => {
             phone: "",
             message: "",
         });
+
+        // __reactProps$fxm9thmg82s
+
+        console.log("Clicked:", event)
+
     };
+
+    const ClickMeFunction = (event) => {
+        console.log("Clicked:", event.target.innerText)
+    }
 
 
     return (
@@ -128,6 +145,9 @@ const TopFormSection = ({ content }) => {
                         </div>
                         <button type="submit">Send to us</button>
                     </form>
+
+                    <button type="submit" onClick={ClickMeFunction}>Click me immediatly</button>
+
                 </div>
                 <div className={styles.LawmanImage}>
                     <Image

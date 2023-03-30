@@ -15,7 +15,6 @@ export default function Home({ content }) {
   const router = useRouter()
 
   PageTracker(router.asPath)
-
   return (
     <div className={styles.container}>
       <Head>

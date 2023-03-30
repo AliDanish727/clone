@@ -17,7 +17,7 @@ export const PageTracker = (path) => {
                 console.log(`Time spent on ${path}: ${timeSpent}ms`);
                 await axios.post('http://localhost:3000/api/tracker', {
                     path: path,
-                    timeSpent: timeSpent
+                    timeSpent: timeSpent,
                 })
                     .then((response) => {
                         console.log(response.data);
